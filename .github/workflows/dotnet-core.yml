@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]
     env:
-      FUNC_APP_NAME: blogimagegenerator
+      FUNC_APP_NAME: Coco-ImageResize001
     steps:
       - name: Download website
         uses: actions/download-artifact@v1
